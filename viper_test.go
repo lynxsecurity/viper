@@ -26,11 +26,11 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
-	"github.com/spf13/pflag"
+	"github.com/lynxsecurity/pflag"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/spf13/viper/internal/testutil"
+	"github.com/lynxsecurity/viper/internal/testutil"
 )
 
 var yamlExample = []byte(`Hacker: true

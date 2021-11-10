@@ -40,15 +40,15 @@ import (
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
 	jww "github.com/spf13/jwalterweatherman"
-	"github.com/spf13/pflag"
+	"github.com/lynxsecurity/pflag"
 	"github.com/subosito/gotenv"
 	"gopkg.in/ini.v1"
 
-	"github.com/spf13/viper/internal/encoding"
-	"github.com/spf13/viper/internal/encoding/hcl"
-	"github.com/spf13/viper/internal/encoding/json"
-	"github.com/spf13/viper/internal/encoding/toml"
-	"github.com/spf13/viper/internal/encoding/yaml"
+	"github.com/lynxsecurity/viper/internal/encoding"
+	"github.com/lynxsecurity/viper/internal/encoding/hcl"
+	"github.com/lynxsecurity/viper/internal/encoding/json"
+	"github.com/lynxsecurity/viper/internal/encoding/toml"
+	"github.com/lynxsecurity/viper/internal/encoding/yaml"
 )
 
 // ConfigMarshalError happens when failing to marshal the configuration.
